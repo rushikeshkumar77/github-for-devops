@@ -61,3 +61,19 @@ git pull origin <branch name>
 
 Check you git commits and logs
 git log
+
+Check status
+git status
+
+stage changes
+git add .                 # Add all
+# OR
+git add filename          # Add specific
+
+commit
+git commit -m "Your message"
+
+Push
+git push origin master    # If branch = master
+# OR
+git push origin main      # If branch = main
